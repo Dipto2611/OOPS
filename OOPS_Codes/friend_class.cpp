@@ -1,5 +1,7 @@
 //write a code for friend class:
 //simple approach 
+//same as lab record folder
+
 #include <iostream>
 using namespace std;
 
