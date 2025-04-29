@@ -5,13 +5,13 @@ class measure {
 public:
     int ft, inch;
 
-    measure(int f, int i) {
+    measure(int f, int i) { //assingment is used as in general case as like complex no
         ft = f;
         inch = i;
     }
 
     // Overload unary -- operator
-    void operator--() {
+    void operator -() {
         ft--;
         inch--;
     }
@@ -27,7 +27,7 @@ int main() {
     cout << "Before decrement: ";
     m.display();
 
-    --m;  // Calls operator--()
+    -m;  // Calls operator--()
 
     cout << "After decrement: ";
     m.display();
