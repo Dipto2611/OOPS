@@ -16,7 +16,7 @@ int main(){
         }
         else{
             res=num/den;
-            cout<<res;
+            cout<<"Result is:"<<res<<endl;
         }
        
     }

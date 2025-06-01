@@ -4,7 +4,8 @@
 using namespace std;
 
 // Function Template
-template <typename T>
+template <typename T> //here T is the datatype i.e int here
+
 T add(T num1, T num2) {
     return num1 + num2;
 }
