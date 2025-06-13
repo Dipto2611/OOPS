@@ -1,3 +1,4 @@
+//its wrong but also correct coz C gets the priority so its wrong and no ambiguious
 #include <iostream>
 using namespace std;
 

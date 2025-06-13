@@ -24,3 +24,4 @@ int main(){
     obj.B::disp();
     
 }
+/*correct code for ambiguity*/
